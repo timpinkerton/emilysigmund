@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emily Sigmund - Yoga Instructor</title>
+
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+
+    <style>
+
+        body {
+            background-image: url('images/background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* optional: creates a nice parallax effect */
+        }
+
+        .footer-image {
+            background-image: url('images/footer.png');
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation / Header -->
+    <nav class="navbar navbar-light bg-light py-3">
+        <div class="container">
+            <a class="navbar-brand fs-3" href="#">Emily Sigmund</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="container my-5 text-center">
+        
+        <h1 class="mb-3">Yoga Instructor</h1>
+        <p class="lead">
+            Emily is a dedicated yoga instructor focused on helping students build strength, 
+            flexibility, and mindfulness. She completed her 200 hour yoga training from Blue Sky yoga
+            in 2026.
+
+            what if there is a lot more text here: 
+
+
+           whoa
+
+           whoa
+
+
+           whoa
+        </p>
+
+        <img 
+            src="images/emily.JPG" 
+            class="img-fluid w-100 mb-4"
+            alt="Emily Sigmund"
+        >
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="container my-5">
+        <h2 class="mb-4">Contact</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">What are you looking for?</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Tell me a bit about your goals"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer-image mt-5">
+        <div class="container py-5 text-center text-white">
+            <p>© 2024 Emily Sigmund Yoga</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
